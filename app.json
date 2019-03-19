@@ -1,4 +1,7 @@
 {
   "name": "projektiFindFeri",
-  "displayName": "projektiFindFeri"
+  "displayName": "projektiFindFeri",
+  "expo": {
+    "sdkVersion": "32.0.0"
+  }
 }
