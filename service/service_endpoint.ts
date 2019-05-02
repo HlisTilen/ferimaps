@@ -1,0 +1,2 @@
+const SERVER_ENDPOINT = 'http://10.0.2.2:8000/';
+export const PROSTORI_ENDPOINT= SERVER_ENDPOINT+'prostori/', ZAPOSLENI_ENDPOINT = SERVER_ENDPOINT+'zaposleni/';
