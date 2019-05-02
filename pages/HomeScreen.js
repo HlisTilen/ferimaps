@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native';
 import {SimpleSearchBar} from "../SimpleSearchBar";
- 
+
 export default class HomeScreen extends React.Component {
   constructor(props) {
     super(props);
@@ -17,7 +17,7 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1,  alignItems: 'center' }}>
-      <SimpleSearchBar onSearchChange={this.onSearchChange}></SimpleSearchBar> 
+      <SimpleSearchBar onSearchChange={this.onSearchChange}></SimpleSearchBar>
         <Text style={{ marginTop: 50, fontSize: 25, justifyContent: 'center' }}>Zemljevid</Text>
         {/*
         <View
